@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="064aa627-fcfd-4964-a21a-fa7ff7c9e094" Scope="Web" Title="Lab488Mod5 Feature1">
+  <ElementManifests>
+    <ElementManifest Location="EventReceiver1\Elements.xml" />
+  </ElementManifests>
+</Feature>

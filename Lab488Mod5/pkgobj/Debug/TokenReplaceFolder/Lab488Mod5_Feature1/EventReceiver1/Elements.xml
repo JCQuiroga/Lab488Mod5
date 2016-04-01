@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListUrl="Lists/Facturas">
+    <Receiver>
+      <Name>EventReceiver1ItemAdding</Name>
+      <Type>ItemAdding</Type>
+      <Assembly>Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654</Assembly>
+      <Class>Lab488Mod5.EventReceiver1.EventReceiver1</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>EventReceiver1ItemUpdating</Name>
+      <Type>ItemUpdating</Type>
+      <Assembly>Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654</Assembly>
+      <Class>Lab488Mod5.EventReceiver1.EventReceiver1</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+    <Receiver>
+      <Name>EventReceiver1ItemDeleting</Name>
+      <Type>ItemDeleting</Type>
+      <Assembly>Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654</Assembly>
+      <Class>Lab488Mod5.EventReceiver1.EventReceiver1</Class>
+      <SequenceNumber>10000</SequenceNumber>
+    </Receiver>
+  </Receivers>
+</Elements>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Lab488Mod5.WebPart1.WebPart1, Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">Lab488Mod5 - WebPart1</property>
+        <property name="Description" type="string">My Web Part</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

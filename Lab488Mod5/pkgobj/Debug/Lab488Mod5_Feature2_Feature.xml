@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="dd5bb3bf-b569-4b00-84fa-3e0c18dc24db" Scope="Site" Title="Lab488Mod5 Feature2">
+  <ElementManifests>
+    <ElementManifest Location="WebPart1\Elements.xml" />
+    <ElementFile Location="WebPart1\WebPart1.webpart" />
+  </ElementManifests>
+</Feature>

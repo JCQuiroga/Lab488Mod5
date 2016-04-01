@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="df4fcd7a-d6d4-4215-a1d0-6d37b24f0ace" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Lab488Mod5.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654" Namespace="Lab488Mod5.WebPart1" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Lab488Mod5_Feature1\Feature.xml" />
+    <FeatureManifest Location="Lab488Mod5_Feature2\Feature.xml" />
+  </FeatureManifests>
+</Solution>
