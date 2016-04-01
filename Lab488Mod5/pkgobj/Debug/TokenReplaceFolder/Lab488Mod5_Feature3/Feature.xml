@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="1e878d22-0487-4a4d-8ae2-053c893818f2" ReceiverAssembly="Lab488Mod5, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9e5dc9c8268d4654" ReceiverClass="Lab488Mod5.Features.Feature3.Feature3EventReceiver" Scope="Site" Title="Lab488Mod5 Feature3"></Feature>

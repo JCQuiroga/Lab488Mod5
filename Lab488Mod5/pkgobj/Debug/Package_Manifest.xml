@@ -10,5 +10,6 @@
   <FeatureManifests>
     <FeatureManifest Location="Lab488Mod5_Feature1\Feature.xml" />
     <FeatureManifest Location="Lab488Mod5_Feature2\Feature.xml" />
+    <FeatureManifest Location="Lab488Mod5_Feature3\Feature.xml" />
   </FeatureManifests>
 </Solution>

@@ -53,6 +53,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EventReceiver1\EventReceiver1.cs" />
+    <Compile Include="Features\Feature3\Feature3.EventReceiver.cs">
+      <DependentUpon>Feature3.feature</DependentUpon>
+    </Compile>
+    <Compile Include="ManejoFacturasTimerJob.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebPart1\WebPart1.cs" />
   </ItemGroup>
@@ -65,6 +69,9 @@
     </None>
     <None Include="Features\Feature2\Feature2.feature">
       <FeatureId>{76f1f126-0234-48f4-a6c6-95b1a203e902}</FeatureId>
+    </None>
+    <None Include="Features\Feature3\Feature3.feature">
+      <FeatureId>{57de2545-acc0-4325-a91e-f2e52de3837d}</FeatureId>
     </None>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
@@ -86,6 +93,9 @@
     </Content>
     <Content Include="Features\Feature2\Feature2.Template.xml">
       <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Feature3\Feature3.Template.xml">
+      <DependentUpon>Feature3.feature</DependentUpon>
     </Content>
     <Content Include="WebPart1\Elements.xml" />
   </ItemGroup>
